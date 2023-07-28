@@ -3,15 +3,11 @@ packages:
   - apt-transport-https
   - ca-certificates
   - curl
-  - software-properties-common 
-  - gnupg 
-  - nginx
-  - snapd
 package_update: true
 package_upgrade: true
 runcmd:
   - curl -fsSL https://get.docker.com -o get-docker.sh
   - sudo sh get-docker.sh
   - sudo usermod -aG docker $USER
-  - curl -fsSL https://deb.nodesource.com/setup_16.x | sudo -E bash -
-  - sudo apt-get install -y nodejs
+  - sudo apt-get update
+  - sudo apt-get upgrade -y
