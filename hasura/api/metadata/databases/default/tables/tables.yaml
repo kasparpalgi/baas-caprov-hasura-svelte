@@ -1,0 +1,2 @@
+- "!include storage_buckets.yaml"
+- "!include storage_files.yaml"

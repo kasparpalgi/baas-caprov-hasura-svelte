@@ -1,0 +1,1 @@
+docker build -t hasura-storage-starter .

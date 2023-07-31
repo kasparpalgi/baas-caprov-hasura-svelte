@@ -1,0 +1,11 @@
+table:
+  name: buckets
+  schema: storage
+array_relationships:
+  - name: files
+    using:
+      foreign_key_constraint_on:
+        column: bucket_id
+        table:
+          name: files
+          schema: storage

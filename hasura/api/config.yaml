@@ -1,0 +1,7 @@
+version: 3
+endpoint: https://api.admin.servicehost.io
+admin_secret: Asdc1523!Asdc1523!
+metadata_directory: metadata
+actions:
+  kind: synchronous
+  handler_webhook_baseurl: http://localhost:3000

@@ -1,0 +1,7 @@
+table:
+  name: files
+  schema: storage
+object_relationships:
+  - name: bucket
+    using:
+      foreign_key_constraint_on: bucket_id

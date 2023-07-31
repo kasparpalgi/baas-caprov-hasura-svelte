@@ -1,4 +1,8 @@
+# Stack
+hasura/config.yaml
+
 # Logs
+passwords.md
 logs
 *.log
 npm-debug.log*
