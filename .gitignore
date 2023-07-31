@@ -2,6 +2,7 @@
 hasura/config.yaml
 
 # Logs
+.vscode
 passwords.md
 logs
 *.log
