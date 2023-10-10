@@ -17,6 +17,12 @@ This method uses a multi-stage build process. This process has two stages, the "
 
 ## Notes
 
+Stanislav: https://www.youtube.com/watch?v=NLjolI9FwCU (3 months ago, 46 likes, Github repo)
+
+Edit svelte.config.js -> adapter-node and adapter: adapter({ out: 'build' }) https://i.imgur.com/0A8MyNl.png
+
+Create: .github/workflows/build.yml
+
 Change in two places the timezone as needed. Eg.: `ARG TZ=Europe/Tallinn`
 
 https://i.imgur.com/Vm4DRBE.png
